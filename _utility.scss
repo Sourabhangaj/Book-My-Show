@@ -1,0 +1,83 @@
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+
+@for $i from 1 to 5 {
+    .gap-#{$i} {
+        gap: #{$i}rem;
+    }
+}
+
+@for $i from 0 to 4 {
+    .p-#{$i} {
+        padding: #{$i}rem;
+    }
+}
+
+@for $i from 0 to 4 {
+    .m-#{$i} {
+        margin: #{$i}rem;
+    }
+}
+
+.w-300 {
+    width: 30rem;
+}
+
+.head {
+    padding: 0.5rem;
+    border: none;
+}
+
+.selected {
+    background-color: $success;
+}
+
+.booked {
+    background-color: $gray;
+}
+
+.alert-success {
+    background-color: darken($primary, 1);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 30rem;
+    color: $dark;
+    font-size: 1.2rem;
+}
+
+.btn {
+    width: 30rem;
+    padding: 1rem;
+    background-color: $primary;
+    border-radius: 00.5rem;
+    border: none;
+
+}
+
+.btn:hover {
+    box-shadow: 0rem 0rem 1rem $primary;
+    transform: scale(1.2);
+}
+
+.booked {
+    color: $gray;
+}

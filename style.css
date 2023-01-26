@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+html {
+  font-size: 10px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.align-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.p-0 {
+  padding: 0rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.m-0 {
+  margin: 0rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.w-300 {
+  width: 30rem;
+}
+
+.head {
+  padding: 0.5rem;
+  border: none;
+}
+
+.selected {
+  background-color: #00cd00;
+}
+
+.booked {
+  background-color: gray;
+}
+
+.alert-success {
+  background-color: #ff7b4b;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 30rem;
+  color: #141414;
+  font-size: 1.2rem;
+}
+
+.btn {
+  width: 30rem;
+  padding: 1rem;
+  background-color: coral;
+  border-radius: 00.5rem;
+  border: none;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0rem 0rem 1rem coral;
+  box-shadow: 0rem 0rem 1rem coral;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.booked {
+  color: gray;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+}
+
+.seat {
+  height: 2rem;
+  width: 2rem;
+  border: 0.2rem solid coral;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.seat:hover {
+  -webkit-box-shadow: 0rem 0rem 1rem coral;
+  box-shadow: 0rem 0rem 1rem coral;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.head:hover {
+  -webkit-box-shadow: 0rem 0rem 1rem coral;
+  box-shadow: 0rem 0rem 1rem coral;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */
